@@ -4,8 +4,8 @@ This repository would be used to store several self-developed or found on Intern
 
 ### WFFM Edit button and disabling of InsertButton
 Developed by Mikkel Holck Madsen and shared by him in following blog posts:
-[Adding Edit button](http://www.mikkelhm.dk/post/2013/09/03/Adding-an-edit-button-to-the-Web-Forms-for-Marketers-module.aspx)
-[Improving Insert form button](http://www.mikkelhm.dk/post/2013/09/08/Improving-the-Insert-form-button-on-the-Webforms-for-Marketers-module.aspx)
+[Adding Edit button](http://www.mikkelhm.dk/post/2013/09/03/Adding-an-edit-button-to-the-Web-Forms-for-Marketers-module.aspx);
+[Improving Insert form button](http://www.mikkelhm.dk/post/2013/09/08/Improving-the-Insert-form-button-on-the-Webforms-for-Marketers-module.aspx);
 
 ##Usage
 After some investigations and ideas, I decided to compile all code in one assembly, but allow granular control of what is needed by adding different config files for App_config/Include.
