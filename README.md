@@ -9,7 +9,11 @@ Could be used with Sitecore non less than 6.5
 Developed by Mikkel Holck Madsen and shared by him in following blog posts:
 [Adding Edit button](http://www.mikkelhm.dk/post/2013/09/03/Adding-an-edit-button-to-the-Web-Forms-for-Marketers-module.aspx);
 Before starting, either deserialize items from /Sitecore Items/Edit button/serialization/, or install package /Sitecore Items/Edit button/WFFMEditButton.zip
+This one would substitute Insert form button by Edit form button if on Sitecore Device, defined in configuration file, form interpreter with valid form is present.
+
+
 [Improving Insert form button](http://www.mikkelhm.dk/post/2013/09/08/Improving-the-Insert-form-button-on-the-Webforms-for-Marketers-module.aspx);
+This one would hide insert button, if on Sitecore Device, defined in configuration file, form interpreter with valid form is present.
 
 ##Usage
 After some investigations and ideas, I decided to compile all code in one assembly, but allow granular control of what is needed by adding different config files for App_config/Include.
