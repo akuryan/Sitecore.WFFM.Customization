@@ -7,6 +7,7 @@ Could be used with Sitecore non less than 6.5
 
 ### WFFM Edit button and disabling of InsertButton
 Developed by Mikkel Holck Madsen and shared by him in following blog posts:
+
 [Adding Edit button](http://www.mikkelhm.dk/post/2013/09/03/Adding-an-edit-button-to-the-Web-Forms-for-Marketers-module.aspx);
 Before starting, either deserialize items from /Sitecore Items/Edit button/serialization/, or install package /Sitecore Items/Edit button/WFFMEditButton.zip
 This one would substitute Insert form button by Edit form button if on Sitecore Device, defined in configuration file, form interpreter with valid form is present.
