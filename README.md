@@ -2,9 +2,13 @@ Sitecore.WFFM.Customization
 ===========================
 This repository would be used to store several self-developed or found on Internet additions to Sitecore WFFM (Web Forms For Marketeers).
 
+###Limitations
+Could be used with Sitecore non less than 6.5
+
 ### WFFM Edit button and disabling of InsertButton
 Developed by Mikkel Holck Madsen and shared by him in following blog posts:
 [Adding Edit button](http://www.mikkelhm.dk/post/2013/09/03/Adding-an-edit-button-to-the-Web-Forms-for-Marketers-module.aspx);
+Before starting, either deserialize items from /Sitecore Items/Edit button/serialization/, or install package /Sitecore Items/Edit button/WFFM Edit button.zip
 [Improving Insert form button](http://www.mikkelhm.dk/post/2013/09/08/Improving-the-Insert-form-button-on-the-Webforms-for-Marketers-module.aspx);
 
 ##Usage
