@@ -51,12 +51,16 @@
   <ItemGroup>
     <Compile Include="Buttons\EditButton\Command\EditFormButton.cs" />
     <Compile Include="Buttons\InsertButton\Command\InsertFormButton.cs" />
+    <Compile Include="Forms\Pipelines\ProcessMessage.cs" />
     <Compile Include="Forms\Shell\UI\Dialogs\SendMailEditorEx.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shared\Constants.cs" />
     <Compile Include="Shared\FormId.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App_config\Include\WFFM.Customization.AllFieldsProcessor.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="App_config\Include\WFFM.Customization.InsertButton.config">
       <SubType>Designer</SubType>
     </None>
@@ -71,6 +75,7 @@
   <ItemGroup>
     <Content Include="readme.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

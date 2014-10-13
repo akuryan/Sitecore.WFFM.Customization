@@ -14,7 +14,7 @@
                 return;
             }
 
-            foreach (Control control in this.HtmlEditorPane.Controls)
+            foreach (var control in this.HtmlEditorPane.Controls)
             {
                 if (control.GetType() != new Literal().GetType())
                 {
@@ -25,7 +25,7 @@
                 {
                     continue;
                 }
-                text = text.Replace("\" />", string.Format("&{0} = {0}\" />", Shared.Constants.AllFieldsToken));
+                text = text.Replace("\" />", string.Format("&{0}={0}\" />", Shared.Constants.AllFieldsToken));
                 ((Literal)control).Text = text;
             }
         }
