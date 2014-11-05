@@ -3,6 +3,7 @@
     using System;
     using System.Text;
 
+    using Sitecore.Diagnostics;
     using Sitecore.Form.Core.Configuration;
     using Sitecore.Form.Core.Controls.Data;
     using Sitecore.Form.Core.Pipelines.ProcessMessage;
@@ -17,8 +18,11 @@
         /// This method would replace all fields token by form fields tokens for further processing
         /// </summary>
         /// <param name="args"></param>
-        public void ExpandAllFieldsToken(ProcessMessageArgs args)
+        public virtual void ExpandAllFieldsToken(ProcessMessageArgs args)
         {
+            Assert.ArgumentNotNull(args, "args");
+            Error.AssertObject(args, "args");
+
             if (args.MessageType != MessageType.Email)
             {
                 //if this is not email - we could not process tokens
@@ -62,7 +66,7 @@
             }
         }
 
-        private string FieldreplacerCreator(string format, string id, string name, bool isHtml)
+        private static string FieldreplacerCreator(string format, string id, string name, bool isHtml)
         {
             var returnValue = new StringBuilder();
             if (isHtml)

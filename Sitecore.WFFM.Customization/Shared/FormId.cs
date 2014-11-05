@@ -7,6 +7,9 @@
     using Sitecore.Layouts;
     using Sitecore.Web;
 
+    /// <summary>
+    /// Allows to get Form GUID for Device
+    /// </summary>
     public class FormId
     {
         private static string DeviceGuid
@@ -25,7 +28,12 @@
             }
         }
 
-        public static string GetFormId(Item item)
+        /// <summary>
+        /// Get form guid from rendering field of an item, basing on settings
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns>Form GUID</returns>
+        public virtual string GetFormId(Item item)
         {
             var formId = string.Empty;
             if (item.Fields["__renderings"] == null || item.Fields["__renderings"].Value == string.Empty)

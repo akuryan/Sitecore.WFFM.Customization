@@ -3,8 +3,14 @@
     using Sitecore.Forms.Shell.UI.Dialogs;
     using Sitecore.Web.UI.HtmlControls;
 
+    /// <summary>
+    /// Overrides default SendMailEditor to insert all fields token
+    /// </summary>
     public class SendMailEditorEx : SendMailEditor
     {
+        /// <summary>
+        /// Initialized Email editor in order to add all fields token
+        /// </summary>
         protected override void InitializeEditor()
         {
             base.InitializeEditor();

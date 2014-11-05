@@ -16,6 +16,7 @@
   </metadata>
   <files>
     <file src="bin\Release\Sitecore.WFFM.Customization.dll" target="lib\net35" />
+    <file src="bin\Release\Sitecore.WFFM.Customization.XML" target="lib\net35" />
     <file src="readme.txt" target="" />
     <file src="..\Sitecore Items\Edit button\WFFMEditButton.zip" target="tools" />
     <file src="App_config\Include\**" target="content\App_config\Include" />

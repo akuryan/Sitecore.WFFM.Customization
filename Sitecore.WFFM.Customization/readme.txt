@@ -1,2 +1,2 @@
 After nuget package installation - install sitecore package from tool directory of nuget package installed (or copy serialized items to deserilazation folder)
-Could be used in Sitecore later than 6.5
+Could be used in Sitecore later than 6.5 and WFFM later than 2.1 rev 100920
