@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="readme.txt" />
+    <Content Include="SendMailEditor\SendEmail.xml" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
