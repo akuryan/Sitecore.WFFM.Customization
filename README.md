@@ -28,4 +28,5 @@ Would be working with WFFM 2.1 rev 100920
 
 ##Usage
 After some investigations and ideas, I decided to compile all code in one assembly, but allow granular control of what is needed by adding different config files for App_config/Include.
-So, one could disable unneeded feature by just removing it's configuration
+So, one could disable unneeded feature by just removing it's configuration.
+If you have already modified /sitecore/shell/override/SendEmail.xml - you should recompile module against your modified assembly
