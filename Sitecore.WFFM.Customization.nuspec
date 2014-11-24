@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Sitecore.WFFM.Customization</id>
+    <version>1.0.0</version>
+    <authors>Anton Kuryan, ColoursMinsk team</authors>
+    <owners>Anton Kuryan, ColoursMinsk</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Sitecore.WFFM.Customization - set of additions for WFFM, which eases it's usage
+    </description>
+    <projectUrl>https://github.com/akuryan/Sitecore.WFFM.Customization/blob/master/README.md</projectUrl>
+    <copyright>Copyright 2014</copyright>
+    <tags>sitecore, module, modules, WFFM, forms, customization</tags>
+    <language>en-US</language>
+  </metadata>
+  <files>
+    <file src="Sitecore.WFFM.Customization\bin\Release\Sitecore.WFFM.Customization.dll" target="lib\net35" />
+    <file src="Sitecore.WFFM.Customization\bin\Release\Sitecore.WFFM.Customization.XML" target="lib\net35" />
+    <file src="Sitecore.WFFM.Customization\bin\Release\Sitecore.WFFM.Customization.pdb" target="lib\net35" />
+    <file src="Sitecore.WFFM.Customization\**\*.cs" target="src" />
+    <file src="Sitecore.WFFM.Customization\readme.txt" target="" />
+    <file src="Sitecore Items\Edit button\WFFMEditButton.zip" target="tools" />
+    <file src="Sitecore.WFFM.Customization\App_config\Include\**" target="content\App_config\Include" />
+    <file src="Sitecore.WFFM.Customization\SendMailEditor\**" target="content\sitecore\shell\Override" />
+  </files>
+</package>
